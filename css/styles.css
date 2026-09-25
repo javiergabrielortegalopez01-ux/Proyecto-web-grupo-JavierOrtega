@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.encabezado {
+    background-color: rgb(1, 1, 70);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.celeste {
+    color:aqua;
+}
+
+.barra-navegacion {
+    background-color: aliceblue;
+    color: black;
+
+    display: flex;
+
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.azul {
+    color: rgb(50, 50, 255);
+}
+
+.barra-navegacion div {
+    display: flex;
+    gap: 20px;
+}
+
+.Contacto {
+    background-color: aliceblue;
+    color:black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.Contacto article {
+    background-color: white;
+    width: 800px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input {
+    height: 30px;
+    border-radius: 4px;
+    border-style: none;
+    border: 1px gray solid;
+    padding: 4px;
+}
+
+textarea {
+    height: 90px;
+    padding: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-formulario {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+textarea, input {
+    margin-bottom: 20px;
+}
+
+.seccion1 {
+    background-color: rgb(1, 1, 70);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    line-height: 60px;
+}
+
+.seccion1 h1 {
+    font-size: 60px;
+}
+
+.seccion1 p {
+    color: gainsboro;
+}
+
+.btn {
+    background-color:  rgb(50, 50, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
