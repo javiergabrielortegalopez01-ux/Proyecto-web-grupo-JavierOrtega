@@ -104,6 +104,10 @@ textarea, input {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 5px;
+
+}
+
+
 .seccion-equipos{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(4, 4, 36);
@@ -140,6 +144,8 @@ textarea, input {
     border-radius: 8px;
     align-items: center;
     text-align: center;
+
+}
 .logo{
     background-color:rgb(175, 182, 216);
     width: 100px;
