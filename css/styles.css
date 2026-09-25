@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.Nuestros-servicios{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+
+}
+
+.tarjeta{
+    margin: 20px 15px;
+    background-color: rgb(219, 219, 219);
+    height: 150px;
+    width: 250px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tarjeta h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(17, 17, 17);
+}
+
+
+.tarjeta p{
+    color: rgb(97, 96, 96);
+
+}
+
+
+
+hr{
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
