@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -136,16 +137,7 @@ textarea, input {
     justify-content: center;
 }
 
-.tarjeta{
-    margin: 20px 16px;
-    background-color: rgb(219, 219, 219);
-    height: 150px;
-    width: 250px;
-    border-radius: 8px;
-    align-items: center;
-    text-align: center;
 
-}
 .logo{
     background-color:rgb(175, 182, 216);
     width: 100px;
@@ -171,4 +163,132 @@ textarea, input {
 .cards p{
     color: rgb(0, 110, 255);
     font-weight: 500;
+}
+
+
+
+
+.Nuestros-servicios{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    min-height: 300px; /**/
+
+
+}
+
+
+.tarjeta{
+    margin: 20px 15px;
+    background-color: rgb(219, 219, 219);
+    height: 150px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;   
+}
+
+
+
+
+.tarjeta h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(17, 17, 17);
+}
+
+
+.tarjeta p{
+    color: rgb(97, 96, 96);
+text-align:center;    
+
+}
+
+
+hr{
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.Nuestros-servicios h2{
+    font-size: 30px;
+
+}
+
+
+
+
+footer{
+    background-color: rgb(1, 1, 70);
+    color: white;
+    text-align: center  ;
+
+
+}
+
+
+@media (max-width: 700px) {
+
+    .barra-navegacion {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .barra-navegacion div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .seccion1 {
+        padding: 60px 20px 50px;
+        text-align: center;
+    }
+
+    .seccion1 h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .seccion1 p {
+        line-height: 1.5;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 300px;
+        height: auto;       
+        padding: 20px;
+    }
+
+    .moders {
+        padding: 30px 10px;
+    }
+
+    .seccion-equipos h2 {
+        font-size: 28px;
+    }
+
+    .Contacto {
+        padding: 30px 15px;
+    }
+
+    .Contacto article {
+        width: 100%;      
+    }
 }
